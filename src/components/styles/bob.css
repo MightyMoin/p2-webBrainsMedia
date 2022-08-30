@@ -1,0 +1,38 @@
+.boxa-button{
+    background-color: 
+    #611f69;
+    padding: 18px 30px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    margin-left: 2%;
+    /* margin: auto; */
+}
+
+.boxa-button:last-child{
+    border: 2px solid #611f69;
+    background-color: white;
+    color: #611f69;
+}
+
+.boxa-h{
+      padding: 10px; 
+      font-weight: bold; 
+      text-align: center;
+}
+.boxa p{
+    text-align: center;
+}
+
+.boxa{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.boxa-inner{
+    display: flex;
+    justify-content: center;
+}

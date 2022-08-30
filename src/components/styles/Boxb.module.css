@@ -1,0 +1,26 @@
+*{
+    box-sizing: inherit;
+}
+.hide-on-desktop{
+    display: none;
+    border-bottom-right-radius: 1000px;
+    border-top-right-radius: 1000px;
+}
+.video-and-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 76.875rem;
+    margin: 0 auto;
+}
+.section-copy{
+    max-width: 480px;
+}
+.display-as-h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.12;
+    letter-spacing: -.8px;
+    font-size: 3.15rem;
+    margin-bottom: 1rem;
+}

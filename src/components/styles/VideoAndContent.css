@@ -1,0 +1,113 @@
+*{
+    box-sizing: inherit;
+}
+.hide-on-desktop{
+    display: none;
+}
+.video-and-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 78.875rem;
+    margin: 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.section-copy{
+    max-width: 480px;
+}
+.display-as-h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.12;
+    letter-spacing: -.8px;
+    font-size: 3.15rem;
+    margin-top: 0;
+}
+
+video::-webkit-media-controls-panel {
+    display: none;
+    opacity: 1;
+}
+
+.header h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    letter-spacing: -1.5px;
+    line-height: 1.0625;
+}
+
+.header h1 span{
+    color: #ecb22e;
+}
+.header{
+    font-weight: 800;
+}
+.google-btn{
+    display: flex;
+    justify-content: space-around;
+    font-family:Arial, Helvetica, sans-serif;     
+    align-items: center;
+    width: 240px;
+    font-size: 0.9rem;
+    font-weight: 900;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    height: 50px;
+    background-color: #4285f4;
+    border-radius: 2px;
+    transition: all 0.2s;
+}
+.google-btn:hover{
+    color: #4285f4;
+    background-color: white;
+    cursor: pointer;
+}
+.google-btn img{
+    width: 2.6rem;
+    margin-top: 3px;
+    background-color: white;
+    border-radius: 2px;
+    color: black;
+}
+.btn-email{
+    display: flex;
+    justify-content: space-around;
+    font-family:Arial, Helvetica, sans-serif;     
+    align-items: center;
+    width: 250px;
+    font-size: 0.73rem;
+    padding: 1rem;
+    font-weight: 900;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    height: 50px;
+    background-color: white;
+    color: #541554;
+    border-radius: 2px;
+    transition: all 0.2s;
+    margin-right: 5px;
+}
+.btn-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-email:hover{
+    color: white;
+    background-color: #541554;
+    cursor: pointer;
+}
+
+.author-in-content span{
+    font-weight: 700;
+}
+
+.new-content{
+    font-style: italic;
+    font-size: 1.2em;
+    font-weight: 100;
+    letter-spacing: 0.9px;
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Button, Grid } from "@mui/material";
+import { Box, Grid } from "@mui/material";
 import SlackLogo from "./SlackLogo";
 
 const MyAppBar = () => {
