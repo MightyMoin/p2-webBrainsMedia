@@ -7,9 +7,15 @@ import GoogleSVG from "./GoogleSVG";
 const Header = () => {
   return (
     <Box>
-      <Grid container height="80%" width="100vw" overflow="hidden">
-        <Grid item xs={1}></Grid>
-        <Grid height="100%" item xs={6}>
+      <Grid
+        container
+        minHeight="80%"
+        width="100vw"
+        overflow="hidden"
+        paddingTop={4}
+      >
+        <Grid item md={1}></Grid>
+        <Grid height="100%" item xs={12} md={6}>
           <Box width="100%" height="100%" className="header">
             <Box
               display="flex"
@@ -39,9 +45,9 @@ const Header = () => {
             </Box>
           </Box>
         </Grid>
-        <Grid item xs={5}>
+        <Grid item xs={12} md={5}>
           <Box height="100%">
-            <video width="105%" height="100%" autoPlay loop muted controls>
+            <video width="105%" autoPlay loop muted controls>
               <source
                 src="https://a.slack-edge.com/9689dea/marketing/img/homepage/e2e-prospects/animations/webm/hero-product-ui.webm"
                 type="video/webm"

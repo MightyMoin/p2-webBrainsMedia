@@ -11,6 +11,7 @@ import React from "react";
 import Boxb from "../elements/Boxb";
 import { Cards } from "../elements/Cards";
 import { Footer } from "../elements/Footer";
+import { ProgressBar } from "../elements/ProgressBar";
 
 const LandingPage = () => {
   const theme = useTheme();
@@ -18,7 +19,7 @@ const LandingPage = () => {
   return (
     <div>
       <Box bgcolor={theme.palette.primary.main}>
-        <Box color="#fff" height="70vh">
+        <Box color="#fff" minHeight="70vh">
           <MyAppBar />
           <Box display={"flex"} alignItems="top" height="100%">
             <WomanWithLaptop />
