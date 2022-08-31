@@ -17,7 +17,10 @@ export const Cards = () => {
           </div>
           <div className="class-head">Slack as your digital HQ</div>
           <div className="card-image" style={{ marginTop: "40px" }}>
-            <img src="https://a.slack-edge.com/891d9e5/marketing/img/digital-hq/promos/img-promo-01.png" alt="promo" />
+            <img
+              src="https://a.slack-edge.com/891d9e5/marketing/img/digital-hq/promos/img-promo-01.png"
+              alt="promo"
+            />
           </div>
           <div className="read-more" style={{ color: "#fff" }}>
             <p style={{ color: "#fff" }}>See All</p>
@@ -26,7 +29,10 @@ export const Cards = () => {
         </div>
         <div className="card">
           <div className="card-image">
-            <img src="https://a.slack-edge.com/891d9e5/marketing/img/digital-hq/promos/img-promo-02.jpg" alt="resource"/>
+            <img
+              src="https://a.slack-edge.com/891d9e5/marketing/img/digital-hq/promos/img-promo-02.jpg"
+              alt="resource"
+            />
           </div>
           <div>
             <p>Resource</p>
@@ -39,7 +45,10 @@ export const Cards = () => {
         </div>
         <div className="card">
           <div className="card-image">
-            <img src="https://a.slack-edge.com/9fbc946/marketing/img/digital-hq/promos/img-promo-03.jpg" alt="webinar"/>
+            <img
+              src="https://a.slack-edge.com/9fbc946/marketing/img/digital-hq/promos/img-promo-03.jpg"
+              alt="webinar"
+            />
           </div>
           <div>
             <p>Webinar</p>
@@ -54,7 +63,10 @@ export const Cards = () => {
         </div>
         <div className="card">
           <div className="card-image">
-            <img src="https://a.slack-edge.com/9fbc946/marketing/img/digital-hq/promos/img-promo-04.jpg" alt="E-Book"/>
+            <img
+              src="https://a.slack-edge.com/9fbc946/marketing/img/digital-hq/promos/img-promo-04.jpg"
+              alt="E-Book"
+            />
           </div>
           <div>
             <p>E-book</p>

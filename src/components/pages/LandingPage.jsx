@@ -31,15 +31,15 @@ const LandingPage = () => {
           <VideoAndContent2 />
           <VideoAndContent3 />
         </Box>
-        <Box bgcolor="#FFFFFF" height="100vh">
+        <Box bgcolor="#FFFFFF" pv={2} minHeight="100vh">
           <Boxa />
           <Boxb />
         </Box>
-        <Box bgcolor="#F5EDE5" height="70vh">
+        <Box bgcolor="#F5EDE5" minHeight="70vh">
           <Cards />
         </Box>
 
-        <Box bgcolor="#FFFFFF" height="100vh">
+        <Box bgcolor="#FFFFFF" minHeight="100vh">
           <Footer />
         </Box>
       </Box>
