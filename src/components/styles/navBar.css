@@ -1,0 +1,4 @@
+.nav-ul li:hover {
+  border-bottom: 0.8px solid #fff;
+  cursor: pointer;
+}

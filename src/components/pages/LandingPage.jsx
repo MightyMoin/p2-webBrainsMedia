@@ -11,7 +11,6 @@ import React from "react";
 import Boxb from "../elements/Boxb";
 import { Cards } from "../elements/Cards";
 import { Footer } from "../elements/Footer";
-import { ProgressBar } from "../elements/ProgressBar";
 
 const LandingPage = () => {
   const theme = useTheme();
