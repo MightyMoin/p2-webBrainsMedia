@@ -19,7 +19,9 @@ const LandingPage = () => {
     <div>
       <Box bgcolor={theme.palette.primary.main}>
         <Box color="#fff" minHeight="70vh">
-          <MyAppBar />
+          <Box position={'fixed'} width='100%' >
+            <MyAppBar />
+          </Box>
           <Box display={"flex"} alignItems="top" height="100%">
             <WomanWithLaptop />
           </Box>

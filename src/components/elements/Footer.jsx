@@ -5,7 +5,7 @@ import SlackLogo from "./SlackLogo";
 export const Footer = () => {
   return (
     <>
-      <div className="comp1">
+      <div className="comp1" style={{ zIndex: 0 }}>
         <div className="footer-heading">Welcome to your new digital HQ.</div>
         <div className="footer-buttons">
           <button>TRY FOR FREE</button>

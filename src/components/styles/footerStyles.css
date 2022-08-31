@@ -23,20 +23,7 @@
   background-color: #4a154b;
   color: white;
 }
-.nav-buttons button {
-  padding: .8rem 1.3rem;
-  font-weight: bold;
-  margin-left: 1rem;
-  border: 2px solid white;
-  border-radius: 0.25rem;
-  background-color: #4a154b;
-  color: white;
-}
-.nav-buttons button:last-child {
-  box-shadow: none;
-  background-color: white;
-  color: #4a154b;
-}
+
 .comp1 {
   background-color: #4a154b;
   height: auto;

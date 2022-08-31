@@ -6,7 +6,7 @@ import GoogleSVG from "./GoogleSVG";
 
 const Header = () => {
   return (
-    <Box>
+    <Box marginTop={10}>
       <Grid
         container
         minHeight="80%"
@@ -39,7 +39,7 @@ const Header = () => {
                   <div>
                     <GoogleSVG />
                   </div>
-                  <span>Sign up with Google</span>
+                  <span style={{ fontWeight: 100 }}>Sign up with Google</span>
                 </div>
               </Box>
             </Box>

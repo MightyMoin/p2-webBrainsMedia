@@ -1,15 +1,35 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Box, Grid } from "@mui/material";
 import SlackLogo from "./SlackLogo";
 import SearchIcon from "@mui/icons-material/Search";
 import "../styles/navBar.css";
 
 const MyAppBar = () => {
+  const [offset, setOffset] = useState(0);
+
+  useEffect(() => {
+    const onScroll = () => setOffset(window.pageYOffset);
+    // clean up code
+    window.removeEventListener("scroll", onScroll);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
   return (
-    <Box position={"sticky"} paddingTop={3}>
+    <Box zIndex={10000} paddingTop={2}>
       <Grid container>
         <Grid item xs={1}></Grid>
-        <Grid alignItems="center" item xs={10}>
+        <Grid
+          alignItems="center"
+          item
+          xs={10}
+          p={2}
+          style={{
+            borderRadius: 50,
+            backgroundColor: offset > 5 ? "white" : "transparent",
+            color: offset > 5 ? "black" : "white",
+          }}
+        >
           <Grid
             display={"inline-flex"}
             container
@@ -18,7 +38,7 @@ const MyAppBar = () => {
             position="relative"
           >
             <Grid item xs={1}>
-              <SlackLogo />
+              <SlackLogo offset={offset} />
             </Grid>
             <Grid item xs={5}>
               <Box fontWeight={5}>
@@ -54,7 +74,7 @@ const MyAppBar = () => {
               </ul>
             </Grid>
             <Grid item xs={4}>
-              <div className="nav-buttons">
+              <div className={offset > 5 ? "nav-buttons2" : "nav-buttons"}>
                 <button>TALK TO SALES</button>
                 <button>TRY FOR FREE</button>
               </div>
