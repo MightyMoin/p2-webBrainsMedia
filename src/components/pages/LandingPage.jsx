@@ -18,11 +18,14 @@ const LandingPage = () => {
   return (
     <div>
       <Box bgcolor={theme.palette.primary.main}>
-        <Box color="#fff" height="60vh">
+        <Box color="#fff" height="70vh">
           <MyAppBar />
-          <WomanWithLaptop />
+          <Box display={"flex"} alignItems="top" height="100%">
+            <WomanWithLaptop />
+          </Box>
         </Box>
-        <Box bgcolor="#f4ede4" height="160vh">
+
+        <Box bgcolor="#F5EDE5">
           <ImagesInHeader />
           <VideoAndContent1 />
           <VideoAndContent2 />
@@ -32,7 +35,7 @@ const LandingPage = () => {
           <Boxa />
           <Boxb />
         </Box>
-        <Box bgcolor="#f4ede4" height="70vh">
+        <Box bgcolor="#F5EDE5" height="70vh">
           <Cards />
         </Box>
 

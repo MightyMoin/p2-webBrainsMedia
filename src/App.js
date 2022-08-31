@@ -4,7 +4,7 @@ import LandingPage from "./components/pages/LandingPage.jsx"
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#4B154A',
+      main: '#551556',
       contrastText: "#fff"
     },
     secondary: {

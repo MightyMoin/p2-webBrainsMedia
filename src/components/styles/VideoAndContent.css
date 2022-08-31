@@ -39,7 +39,7 @@ video::-webkit-media-controls-panel {
     line-height: 1.0625;
 }
 
-.header h1 span{
+.header p span{
     color: #ecb22e;
 }
 .header{
@@ -50,40 +50,32 @@ video::-webkit-media-controls-panel {
     justify-content: space-around;
     font-family:Arial, Helvetica, sans-serif;     
     align-items: center;
-    width: 240px;
+    width: 260px;
     font-size: 0.9rem;
     font-weight: 900;
     letter-spacing: 1.1px;
     text-transform: uppercase;
-    height: 50px;
+    height: 55px;
     background-color: #4285f4;
-    border-radius: 2px;
+    border-radius: 4px;
     transition: all 0.2s;
+    padding-right: .2rem;
 }
 .google-btn:hover{
-    color: #4285f4;
-    background-color: white;
     cursor: pointer;
-}
-.google-btn img{
-    width: 2.6rem;
-    margin-top: 3px;
-    background-color: white;
-    border-radius: 2px;
-    color: black;
 }
 .btn-email{
     display: flex;
     justify-content: space-around;
     font-family:Arial, Helvetica, sans-serif;     
     align-items: center;
-    width: 250px;
+    width: 260px;
     font-size: 0.73rem;
     padding: 1rem;
     font-weight: 900;
     letter-spacing: 1.1px;
     text-transform: uppercase;
-    height: 50px;
+    height: 55px;
     background-color: white;
     color: #541554;
     border-radius: 2px;
@@ -96,8 +88,7 @@ video::-webkit-media-controls-panel {
     align-items: center;
 }
 .btn-email:hover{
-    color: white;
-    background-color: #541554;
+    border-color: #541554;
     cursor: pointer;
 }
 
